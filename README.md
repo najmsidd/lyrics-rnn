@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RNN Song Lyrics Generator (Keras/LSTM)
 
 A learning-focused project to train a **character-level RNN (LSTM/GRU)** to generate song lyrics.
@@ -60,3 +61,6 @@ python src/generate.py --model models/char_lstm.keras --vocab data/processed/voc
   - Streamlit app for interactive demo
 
 Happy learning! 🎶
+=======
+# lyrics-rnn
+>>>>>>> d443a047a2715b929519d97c13ba81eb66717ad4
