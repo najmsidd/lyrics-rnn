@@ -16,9 +16,9 @@ print(f"Characters: {chars}")
 char_to_idx = {ch:i for i, ch in enumerate(chars)}
 idx_to_char = {i:ch for ch,i in char_to_idx.items()}
 
-encoded_text = np.array([char_to_idx[char] for char in chars])
+encoded_text = np.array([char_to_idx[char] for char in text])
 
-seq_length = 40
+seq_length = 5
 step = 3
 
 sequence = []
@@ -36,7 +36,7 @@ X = np.array(sequence)
 Y = np.array(targets)
 
 np.save("X.npy", X)
-np.save("y.npy", Y)
+np.save("Y.npy", Y)
 np.save("char_to_idx.npy", char_to_idx)
 np.save("idx_to_char.npy", idx_to_char)
 
